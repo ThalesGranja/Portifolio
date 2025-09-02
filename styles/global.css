@@ -28,3 +28,16 @@
   --text-md: 400 16px/140% var(--font-family-maven);
   --text-sm: 400 14px/140% var(--font-family-maven);
 }
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font: var(--font-family-inconsolata);
+  color: var(--gray-100);
+}
+
+.container {
+  width: 1366px;
+}
