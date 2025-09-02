@@ -2,5 +2,34 @@
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
   background-position: center;
-  height: 700px;
+  height: 750px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .intro-content {
+    border-style: solid;
+    border-color: red;
+
+    display: flex;
+    justify-content: center;
+
+    width: 1040px;
+    height: 447px;
+
+    .avatar {
+      width: 112px;
+      height: 112px;
+      padding: 3px;
+      border: 2px solid var(--red);
+      border-radius: 999px;
+
+      img {
+        border: 1.5px solid transparent;
+        border-radius: 9999px;
+        object-fit: cover;
+      }
+    }
+  }
 }
