@@ -12,35 +12,47 @@
     border-style: solid;
     border-color: red;
 
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
 
     width: 1040px;
     height: 447px;
 
-    header {
-      .avatar {
-        width: 112px;
-        height: 112px;
-        padding: 3px;
-        border: 2px solid var(--red);
-        border-radius: 999px;
-        position: relative;
 
-        img {
-          border: 1.5px solid transparent;
-          border-radius: 9999px;
-          object-fit: cover;
-        }
+    .avatar {
+      width: 112px;
+      height: 112px;
+      padding: 3px;
+      border: 2px solid var(--red);
+      border-radius: 999px;
+      position: relative;
 
-        .icon-vector {
-          position: absolute;
-          width: 40px;
-          height: 40px;
-          bottom: -5px;
-          right: -5px;
+      img {
+        border: 1.5px solid transparent;
+        border-radius: 9999px;
+        object-fit: cover;
+      }
+
+      .icon-vector {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        bottom: -5px;
+        right: -5px;
+      }
+
+    }
+
+    .greeting {
+      .hello {
+        display: flex;
+
+        .name {
+          color: var(--red);
         }
       }
+
     }
   }
 }
