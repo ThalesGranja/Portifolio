@@ -8,9 +8,8 @@
   justify-content: center;
 
   .intro-content {
-    margin: 120px 165px;
-    border-style: solid;
-    border-color: red;
+    margin: 120px 165px 94px;
+    /* border: 3px solid red; */
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -47,6 +46,8 @@
 
     .greeting {
       width: 680px;
+      padding-top: 56px;
+      padding-bottom: 80px;
 
       .hello {
         display: flex;
@@ -62,6 +63,27 @@
         justify-content: center;
       }
 
+    }
+
+    .languages {
+      display: flex;
+      gap: 20px;
+      align-items: end;
+
+      span {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        gap: 8px;
+        height: 40px;
+        background-color: var(--gray-400);
+        border-radius: 999px;
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
     }
   }
 }
