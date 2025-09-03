@@ -45,12 +45,20 @@
     }
 
     .greeting {
+      width: 680px;
+
       .hello {
         display: flex;
+        justify-content: center;
 
         .name {
           color: var(--red);
         }
+      }
+
+      .dev {
+        display: flex;
+        justify-content: center;
       }
 
     }
