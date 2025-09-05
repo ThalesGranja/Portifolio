@@ -53,10 +53,6 @@
       .hello {
         display: flex;
         justify-content: center;
-
-        .name {
-          color: var(--red);
-        }
       }
 
       .dev {
@@ -86,6 +82,57 @@
           height: 24px;
         }
       }
+    }
+  }
+}
+
+#projects {
+  background-color: var(--gray-500);
+  height: 917px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  header {
+    margin-top: 72px;
+    padding-bottom: 56px;
+
+    &:nth-child(1) {
+      text-align: center;
+    }
+  }
+
+  .cards-container {
+    width: 1040px;
+    height: 584px;
+    background-color: rgba(245, 245, 245, 0.733);
+
+    .card {
+      width: 330px;
+      height: 280px;
+      background-color: var(--gray-400);
+      border-radius: 12px;
+
+      .card-content {
+        img {
+          width: 306px;
+          height: 156px;
+          border-radius: 8px;
+          margin: 12px 12px 20px;
+        }
+
+        div {
+          margin-left: 16px;
+        }
+
+        p {
+          margin: 8px 16px 0px;
+        }
+
+      }
+
+
     }
   }
 }

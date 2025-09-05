@@ -27,3 +27,7 @@
   font: var(--text-sm);
   color: var(--gray-300);
 }
+
+.red {
+  color: var(--red);
+}

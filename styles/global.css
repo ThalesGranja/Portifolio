@@ -37,7 +37,3 @@ body {
   font: var(--font-family-inconsolata);
   color: var(--gray-100);
 }
-
-.container {
-  width: 1366px;
-}
