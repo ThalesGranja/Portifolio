@@ -106,7 +106,9 @@
   .cards-container {
     width: 1040px;
     height: 584px;
-    background-color: rgba(245, 245, 245, 0.733);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
 
     .card {
       width: 330px;
@@ -120,6 +122,7 @@
           height: 156px;
           border-radius: 8px;
           margin: 12px 12px 20px;
+          background-size: cover;
         }
 
         div {
