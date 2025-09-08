@@ -116,6 +116,8 @@
       background-color: var(--gray-400);
       border-radius: 12px;
 
+      transition: transform 0.3s ease-in-out;
+
       .card-content {
         img {
           width: 306px;
@@ -135,6 +137,10 @@
 
       }
 
+      &:hover {
+        border: 1.5px solid var(--gray-300);
+        transform: scale(1.05);
+      }
 
     }
   }
