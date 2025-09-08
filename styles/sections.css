@@ -236,6 +236,12 @@
 
     .contact:hover {
       border: 1.5px solid var(--blue);
+
+      .rede {
+        img {
+          filter: brightness(0) saturate(100%) invert(60%) sepia(29%) saturate(5455%) hue-rotate(181deg) brightness(93%) contrast(84%);
+        }
+      }
     }
   }
 }
