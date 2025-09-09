@@ -116,6 +116,7 @@
       background-color: var(--gray-400);
       border-radius: 12px;
 
+      text-decoration: none;
       transition: transform 0.3s ease-in-out;
 
       .card-content {
